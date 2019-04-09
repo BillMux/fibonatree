@@ -1,3 +1,8 @@
+# !/usr/bin/env python
+# -*- coding: utf8 -*-
+
+''' Contains methods and attributes of the Branch class '''
 class Branch:
-    def __init__(self, is_split = False):
+    ''' Creates branch '''
+    def __init__(self, is_split=False):
         self.is_split = is_split

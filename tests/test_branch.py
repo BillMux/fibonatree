@@ -1,9 +1,10 @@
-import pytest
 from src.branch import Branch
 
 def setup():
+    ''' Setup tests '''
     global branch
     branch = Branch()
 
 def test_starts_with_bool_split_attr():
-    assert branch.is_split == False
+    ''' Branch should be either split or not '''
+    assert branch.is_split is False
