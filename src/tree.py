@@ -4,8 +4,8 @@
 ''' Contains methods and attributes of the Tree class '''
 class Tree:
     ''' Creates tree '''
-    def __init__(self, fib=[1]):
-        self.fib = fib
+    def __init__(self):
+        self.fib = [1]
 
     def tick(self):
         '''Adds next num to the fib seq'''

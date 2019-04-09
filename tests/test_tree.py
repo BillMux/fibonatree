@@ -23,4 +23,4 @@ def test_following_ticks_add_fib_nums():
     ''' Following time "tick" is called, adds sum of previous two nums '''
     for _ in range(5):
         TREE.tick()
-    assert TREE.fib == [1, 1, 2, 3, 5, 8, 13]
+    assert TREE.fib == [1, 1, 2, 3, 5, 8]
