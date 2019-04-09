@@ -9,7 +9,7 @@ def test_start_seq_from_one():
     assert tree.branches == [1]
 
 def test_first_tick_adds_one():
-    tree.first_tick()
+    tree.tick()
     assert tree.branches == [1, 1]
 
 def setup_after_first_tick():
