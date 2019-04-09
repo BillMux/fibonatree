@@ -2,7 +2,9 @@
 
 -WORK IN PROGRESS-
 
-My attempt to simulate a plant's growth, with the help of Python and Fibonacci.
+## The goal:
+
+To simulate a plant's growth, with the help of Python and Fibonacci.
 
 ![Tree diagram](images/full-tree-diagram.png)
 
