@@ -11,12 +11,10 @@ My attempt to simulate a plant's growth, with the help of Python and Fibonacci.
 - Tree consists of branches
 
 - Each branch is either a normal "single" branch:
-
-![Single Branch](images/single-branch.png)
+<img src="images/single-branch.png" width="60">
 
 - Or is split into two:
-
-![Double Branch](images/double-branch.png)
+<img src="images/double-branch.png" width="60">
 
 - The total number of branches after each "generation" equals the following number in the Fibonacci Sequence
 
